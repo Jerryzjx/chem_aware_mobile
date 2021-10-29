@@ -16,7 +16,7 @@
 
 
 
-# How To Install Chem Aware:
+## How To Install Chem Aware:
 
 ### Prerequiste: Latest Version of ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white) and Simulators installed
 The app is designed to run on any iOS 15 devices.
