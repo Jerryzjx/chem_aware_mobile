@@ -8,7 +8,7 @@
 import SwiftUI
 // global variables
 
-public var compound_Name = "Phenoxethanol"
+public var compound_Name = "Phenoxyethanol"
 public var ghs_classification = readGHS()
 public var health_hazard = readHazard()
 
