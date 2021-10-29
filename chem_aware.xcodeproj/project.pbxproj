@@ -14,7 +14,7 @@
 		C4574398272A11410095CF39 /* chem_awareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4574397272A11410095CF39 /* chem_awareTests.swift */; };
 		C45743A2272A11410095CF39 /* chem_awareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45743A1272A11410095CF39 /* chem_awareUITests.swift */; };
 		C45743A4272A11410095CF39 /* chem_awareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45743A3272A11410095CF39 /* chem_awareUITestsLaunchTests.swift */; };
-		C45743B7272A18E00095CF39 /* Chem_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45743B6272A18E00095CF39 /* Chem_Search.swift */; };
+		C49269BB272B402E00520DCE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C49269BA272B402E00520DCE /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		C457439D272A11410095CF39 /* chem_awareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chem_awareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45743A1272A11410095CF39 /* chem_awareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_awareUITests.swift; sourceTree = "<group>"; };
 		C45743A3272A11410095CF39 /* chem_awareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_awareUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C45743B6272A18E00095CF39 /* Chem_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chem_Search.swift; sourceTree = "<group>"; };
+		C49269BA272B402E00520DCE /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,10 @@
 		C4574385272A113F0095CF39 /* chem_aware */ = {
 			isa = PBXGroup;
 			children = (
+				C49269BA272B402E00520DCE /* data.json */,
 				C4574386272A113F0095CF39 /* chem_awareApp.swift */,
 				C4574388272A113F0095CF39 /* ContentView.swift */,
 				C457438A272A11410095CF39 /* Assets.xcassets */,
-				C45743B6272A18E00095CF39 /* Chem_Search.swift */,
 				C457438C272A11410095CF39 /* Preview Content */,
 			);
 			path = chem_aware;
@@ -235,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C457438E272A11410095CF39 /* Preview Assets.xcassets in Resources */,
+				C49269BB272B402E00520DCE /* data.json in Resources */,
 				C457438B272A11410095CF39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4574389272A113F0095CF39 /* ContentView.swift in Sources */,
-				C45743B7272A18E00095CF39 /* Chem_Search.swift in Sources */,
 				C4574387272A113F0095CF39 /* chem_awareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
