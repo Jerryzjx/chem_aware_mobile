@@ -11,6 +11,8 @@
 ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 
+### PubChem's REST API
+
 ## How To Install Chem Aware:
 
 ### Prerequiste: Latest Version of Xcode and Simulators installed
@@ -20,6 +22,6 @@ You can download the repository to your device and open it with Xcode, then buil
 ### Backend Code:
 [Backend Repo](https://github.com/JerryZhang0920/chem_aware)
 ### How to use it:
-Check out our [Demo Video]()
+Check out our [Demo Video](https://www.youtube.com/watch?v=m0D4Yj5Wd8A)
 
 ![Visitor Badge](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=JerryZhang0920/chem_aware_mobile&style=for-the-badge&logo=github&logoColor=white)
