@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=%2399E0CE&size=30&width=700&height=100&lines=%3E+Chem+Aware;%3E+Check+for+a+green+and+healthy+life.)](https://git.io/typing-svg)
 
 ## View Project On Devpost:
-[![Devpost | Chem Aware ](https://badges.devpost-shields.com/get-badge?name=Chem%20Aware&id=chem-aware&type=big-logo&style=for-the-badge)](https://devpost.com/software/help-neib)
+[![Devpost | Chem-Aware App](https://badges.devpost-shields.com/get-badge?name=Chem-Aware%20App&id=chem-aware&type=big-logo&style=for-the-badge)](https://devpost.com/software/chem-aware)
 
 ### Built With:
 ![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
