@@ -1,4 +1,4 @@
-name: Swift
+name: chem_aware_mobile
 
 on:
   push:
