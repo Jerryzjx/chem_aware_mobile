@@ -1,4 +1,4 @@
-name: chem_aware_mobile
+name: Swift
 
 on:
   push:
@@ -7,12 +7,24 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-
-    runs-on: macos-latest
+  iOS:
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ["13.1", "12.5.1", "12.4"]
+        include:
+          - xcode: "13.1"
+            macos: macOS-11
+          - xcode: "12.5.1"
+            macos: macOS-11
+          - xcode: "12.4"
+            macos: macOS-11
+    runs-on: ${{ matrix.macos }}
 
     steps:
     - uses: actions/checkout@v2
+    - name: Force Xcode 
+      run: sudo xcode-select -switch /Applications/Xcode.app
     - name: Build
       run: swift build -v
     - name: Run tests
