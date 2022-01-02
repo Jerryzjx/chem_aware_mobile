@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4483E1F2755D9DA00ED1A3A /* chem_aware_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4483E1E2755D9DA00ED1A3A /* chem_aware_appApp.swift */; };
+		C4483E212755D9DA00ED1A3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4483E202755D9DA00ED1A3A /* ContentView.swift */; };
+		C4483E232755D9DB00ED1A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4483E222755D9DB00ED1A3A /* Assets.xcassets */; };
+		C4483E262755D9DB00ED1A3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4483E252755D9DB00ED1A3A /* Preview Assets.xcassets */; };
+		C4483E302755D9DB00ED1A3A /* chem_aware_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4483E2F2755D9DB00ED1A3A /* chem_aware_appTests.swift */; };
+		C4483E3A2755D9DB00ED1A3A /* chem_aware_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4483E392755D9DB00ED1A3A /* chem_aware_appUITests.swift */; };
+		C4483E3C2755D9DB00ED1A3A /* chem_aware_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4483E3B2755D9DB00ED1A3A /* chem_aware_appUITestsLaunchTests.swift */; };
+		C4483E492755DA0F00ED1A3A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C4483E482755DA0F00ED1A3A /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4483E2C2755D9DB00ED1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4483E132755D9DA00ED1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4483E1A2755D9DA00ED1A3A;
+			remoteInfo = chem_aware_app;
+		};
+		C4483E362755D9DB00ED1A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4483E132755D9DA00ED1A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4483E1A2755D9DA00ED1A3A;
+			remoteInfo = chem_aware_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4483E1B2755D9DA00ED1A3A /* chem_aware_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chem_aware_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4483E1E2755D9DA00ED1A3A /* chem_aware_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_aware_appApp.swift; sourceTree = "<group>"; };
+		C4483E202755D9DA00ED1A3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4483E222755D9DB00ED1A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4483E252755D9DB00ED1A3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4483E2B2755D9DB00ED1A3A /* chem_aware_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chem_aware_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4483E2F2755D9DB00ED1A3A /* chem_aware_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_aware_appTests.swift; sourceTree = "<group>"; };
+		C4483E352755D9DB00ED1A3A /* chem_aware_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chem_aware_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4483E392755D9DB00ED1A3A /* chem_aware_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_aware_appUITests.swift; sourceTree = "<group>"; };
+		C4483E3B2755D9DB00ED1A3A /* chem_aware_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_aware_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4483E482755DA0F00ED1A3A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4483E182755D9DA00ED1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4483E282755D9DB00ED1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4483E322755D9DB00ED1A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4483E122755D9DA00ED1A3A = {
+			isa = PBXGroup;
+			children = (
+				C4483E1D2755D9DA00ED1A3A /* chem_aware_app */,
+				C4483E382755D9DB00ED1A3A /* chem_aware_appUITests */,
+				C4483E1C2755D9DA00ED1A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4483E1C2755D9DA00ED1A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4483E1B2755D9DA00ED1A3A /* chem_aware_app.app */,
+				C4483E2B2755D9DB00ED1A3A /* chem_aware_appTests.xctest */,
+				C4483E352755D9DB00ED1A3A /* chem_aware_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4483E1D2755D9DA00ED1A3A /* chem_aware_app */ = {
+			isa = PBXGroup;
+			children = (
+				C4483E1E2755D9DA00ED1A3A /* chem_aware_appApp.swift */,
+				C4483E202755D9DA00ED1A3A /* ContentView.swift */,
+				C4483E482755DA0F00ED1A3A /* data.json */,
+				C4483E2E2755D9DB00ED1A3A /* chem_aware_appTests */,
+				C4483E222755D9DB00ED1A3A /* Assets.xcassets */,
+				C4483E242755D9DB00ED1A3A /* Preview Content */,
+			);
+			path = chem_aware_app;
+			sourceTree = "<group>";
+		};
+		C4483E242755D9DB00ED1A3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4483E252755D9DB00ED1A3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4483E2E2755D9DB00ED1A3A /* chem_aware_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4483E2F2755D9DB00ED1A3A /* chem_aware_appTests.swift */,
+			);
+			path = chem_aware_appTests;
+			sourceTree = "<group>";
+		};
+		C4483E382755D9DB00ED1A3A /* chem_aware_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4483E392755D9DB00ED1A3A /* chem_aware_appUITests.swift */,
+				C4483E3B2755D9DB00ED1A3A /* chem_aware_appUITestsLaunchTests.swift */,
+			);
+			path = chem_aware_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4483E1A2755D9DA00ED1A3A /* chem_aware_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4483E3F2755D9DB00ED1A3A /* Build configuration list for PBXNativeTarget "chem_aware_app" */;
+			buildPhases = (
+				C4483E172755D9DA00ED1A3A /* Sources */,
+				C4483E182755D9DA00ED1A3A /* Frameworks */,
+				C4483E192755D9DA00ED1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chem_aware_app;
+			productName = chem_aware_app;
+			productReference = C4483E1B2755D9DA00ED1A3A /* chem_aware_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4483E2A2755D9DB00ED1A3A /* chem_aware_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4483E422755D9DB00ED1A3A /* Build configuration list for PBXNativeTarget "chem_aware_appTests" */;
+			buildPhases = (
+				C4483E272755D9DB00ED1A3A /* Sources */,
+				C4483E282755D9DB00ED1A3A /* Frameworks */,
+				C4483E292755D9DB00ED1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4483E2D2755D9DB00ED1A3A /* PBXTargetDependency */,
+			);
+			name = chem_aware_appTests;
+			productName = chem_aware_appTests;
+			productReference = C4483E2B2755D9DB00ED1A3A /* chem_aware_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4483E342755D9DB00ED1A3A /* chem_aware_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4483E452755D9DB00ED1A3A /* Build configuration list for PBXNativeTarget "chem_aware_appUITests" */;
+			buildPhases = (
+				C4483E312755D9DB00ED1A3A /* Sources */,
+				C4483E322755D9DB00ED1A3A /* Frameworks */,
+				C4483E332755D9DB00ED1A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4483E372755D9DB00ED1A3A /* PBXTargetDependency */,
+			);
+			name = chem_aware_appUITests;
+			productName = chem_aware_appUITests;
+			productReference = C4483E352755D9DB00ED1A3A /* chem_aware_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4483E132755D9DA00ED1A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C4483E1A2755D9DA00ED1A3A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C4483E2A2755D9DB00ED1A3A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C4483E1A2755D9DA00ED1A3A;
+					};
+					C4483E342755D9DB00ED1A3A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C4483E1A2755D9DA00ED1A3A;
+					};
+				};
+			};
+			buildConfigurationList = C4483E162755D9DA00ED1A3A /* Build configuration list for PBXProject "chem_aware_app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4483E122755D9DA00ED1A3A;
+			productRefGroup = C4483E1C2755D9DA00ED1A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4483E1A2755D9DA00ED1A3A /* chem_aware_app */,
+				C4483E2A2755D9DB00ED1A3A /* chem_aware_appTests */,
+				C4483E342755D9DB00ED1A3A /* chem_aware_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4483E192755D9DA00ED1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4483E262755D9DB00ED1A3A /* Preview Assets.xcassets in Resources */,
+				C4483E492755DA0F00ED1A3A /* data.json in Resources */,
+				C4483E232755D9DB00ED1A3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4483E292755D9DB00ED1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4483E332755D9DB00ED1A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4483E172755D9DA00ED1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4483E212755D9DA00ED1A3A /* ContentView.swift in Sources */,
+				C4483E1F2755D9DA00ED1A3A /* chem_aware_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4483E272755D9DB00ED1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4483E302755D9DB00ED1A3A /* chem_aware_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4483E312755D9DB00ED1A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4483E3C2755D9DB00ED1A3A /* chem_aware_appUITestsLaunchTests.swift in Sources */,
+				C4483E3A2755D9DB00ED1A3A /* chem_aware_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4483E2D2755D9DB00ED1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4483E1A2755D9DA00ED1A3A /* chem_aware_app */;
+			targetProxy = C4483E2C2755D9DB00ED1A3A /* PBXContainerItemProxy */;
+		};
+		C4483E372755D9DB00ED1A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4483E1A2755D9DA00ED1A3A /* chem_aware_app */;
+			targetProxy = C4483E362755D9DB00ED1A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4483E3D2755D9DB00ED1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4483E3E2755D9DB00ED1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4483E402755D9DB00ED1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chem_aware_app/Preview Content\"";
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.chem-aware-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4483E412755D9DB00ED1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chem_aware_app/Preview Content\"";
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.chem-aware-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4483E432755D9DB00ED1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.chem-aware-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chem_aware_app.app/chem_aware_app";
+			};
+			name = Debug;
+		};
+		C4483E442755D9DB00ED1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.chem-aware-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chem_aware_app.app/chem_aware_app";
+			};
+			name = Release;
+		};
+		C4483E462755D9DB00ED1A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.chem-aware-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chem_aware_app;
+			};
+			name = Debug;
+		};
+		C4483E472755D9DB00ED1A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.chem-aware-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = chem_aware_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4483E162755D9DA00ED1A3A /* Build configuration list for PBXProject "chem_aware_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4483E3D2755D9DB00ED1A3A /* Debug */,
+				C4483E3E2755D9DB00ED1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4483E3F2755D9DB00ED1A3A /* Build configuration list for PBXNativeTarget "chem_aware_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4483E402755D9DB00ED1A3A /* Debug */,
+				C4483E412755D9DB00ED1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4483E422755D9DB00ED1A3A /* Build configuration list for PBXNativeTarget "chem_aware_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4483E432755D9DB00ED1A3A /* Debug */,
+				C4483E442755D9DB00ED1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4483E452755D9DB00ED1A3A /* Build configuration list for PBXNativeTarget "chem_aware_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4483E462755D9DB00ED1A3A /* Debug */,
+				C4483E472755D9DB00ED1A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4483E132755D9DA00ED1A3A /* Project object */;
+}

@@ -1,13 +1,13 @@
 //
-//  chem_awareUITestsLaunchTests.swift
-//  chem_awareUITests
+//  chem_aware_appUITestsLaunchTests.swift
+//  chem_aware_appUITests
 //
-//  Created by leonard on 2021/10/27.
+//  Created by leonard on 2021/11/29.
 //
 
 import XCTest
 
-class chem_awareUITestsLaunchTests: XCTestCase {
+class chem_aware_appUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
