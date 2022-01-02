@@ -1,14 +1,14 @@
 //
-//  ChemAwareTests.swift
-//  ChemAwareTests
+//  chem_aware_appTests.swift
+//  chem_aware_appTests
 //
 //  Created by leonard on 2021/11/29.
 //
 
 import XCTest
-@testable import ChemAware
+@testable import chem_aware_app
 
-class ChemAwareTests: XCTestCase {
+class chem_aware_appTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
