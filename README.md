@@ -1,7 +1,8 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=%2399E0CE&size=30&width=700&height=100&lines=%3E+Chem+Aware;%3E+Check+for+a+green+and+healthy+life.)](https://git.io/typing-svg)
 
 <img src="https://github.com/JerryZhang0920/chem_aware_mobile/blob/main/media/chemaware.gif?raw=true"  width="50%" height="40%" />
-### I'm currently learning more tech stacks to improve the performance of this appp
+
+### I'm currently learning more tech stacks to improve the performance of this app
 
 ## View Project On Devpost:
 [![Devpost | Chem-Aware App](https://badges.devpost-shields.com/get-badge?name=Chem-Aware%20App&id=chem-aware&type=big-logo&style=for-the-badge)](https://devpost.com/software/chem-aware)
