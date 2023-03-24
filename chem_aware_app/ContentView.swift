@@ -78,7 +78,7 @@ struct ContentView: View {
         NavigationView{
             VStack(alignment: .center){
                 Text("Chem-Aware")
-                    .font(.custom("Helvetica Neue", size: 25))
+                    .font(.custom("Helvetica Neue", size: 24))
                     .padding()
                         .foregroundColor(Color.white)
                         .background(Color.init(red: 254/255, green: 44/255, blue: 85/255))
