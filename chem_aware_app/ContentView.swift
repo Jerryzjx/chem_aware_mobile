@@ -78,7 +78,7 @@ struct ContentView: View {
         NavigationView{
             VStack(alignment: .center){
                 Text("Chem-Aware")
-                    .font(.custom("Helvetica Neue", size: 25))
+                    .font(.custom("Helvetica Neue", size: 24))
                     .padding()
                         .foregroundColor(Color.white)
                         .background(Color.init(red: 254/255, green: 44/255, blue: 85/255))
@@ -102,7 +102,7 @@ struct ContentView: View {
                         }
                     label: {
                         Text("Search")
-                            .font(.custom("Helvetica Neue", size: 25))
+                            .font(.custom("Helvetica Neue", size: 24))
                             .multilineTextAlignment(.center)
                             .frame(maxWidth: 200)
                     }
@@ -134,7 +134,7 @@ struct SecondView: View {
                             .shadow(radius: 5, x: 1, y: 1)
                // NavigationLink(destination: GHSView()){
                 Text(ghs_classification)
-                    .font(.custom("Helvetica Neue", size: 22))
+                    .font(.custom("Helvetica Neue", size: 20))
                     .font(.headline)
                     .fontWeight(.bold)
                     .foregroundColor(Color.orange)
